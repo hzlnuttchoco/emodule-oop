@@ -615,7 +615,7 @@ hewan_list = [<span class="cl">Kucing</span>(<span class="st">"Milo"</span>), <s
     <span class="kw">def</span> <span class="fn">__init__</span>(<span class="op">self</span>, jumlah):
         <span class="op">self</span>.__jumlah = jumlah      <span class="cm"># enkapsulasi: atribut privat</span>
 
-    <span class="de">@property</span>
+    <span class="de">property</span>
     <span class="kw">def</span> <span class="fn">jumlah</span>(<span class="op">self</span>):              <span class="cm"># getter</span>
         <span class="kw">return</span> <span class="op">self</span>.__jumlah
 
@@ -671,7 +671,7 @@ trx = <span class="cl">QRIS</span>(<span class="nu">150000</span>)
           <div class="glos-term"><span class="glos-word">setter</span><div class="glos-pop"><div class="glos-pop-en">setter / mutator</div><div class="glos-pop-id">Metode untuk mengubah nilai atribut privat dengan validasi sebelum perubahan dilakukan.</div></div></div>
           <div class="glos-term"><span class="glos-word">abstraction</span><div class="glos-pop"><div class="glos-pop-en">abstraction</div><div class="glos-pop-id">Abstraksi: menyembunyikan kompleksitas implementasi dan menampilkan fungsionalitas penting saja.</div></div></div>
           <div class="glos-term"><span class="glos-word">ABC</span><div class="glos-pop"><div class="glos-pop-en">Abstract Base Class</div><div class="glos-pop-id">Kelas dasar abstrak di Python. Tidak bisa diinstansiasi langsung; memaksa child class mengimplementasi metode abstrak.</div></div></div>
-          <div class="glos-term"><span class="glos-word">@property</span><div class="glos-pop"><div class="glos-pop-en">property decorator</div><div class="glos-pop-id">Dekorator Python untuk membuat metode dapat diakses seperti atribut biasa tanpa tanda kurung.</div></div></div>
+          <div class="glos-term"><span class="glos-word">property</span><div class="glos-pop"><div class="glos-pop-en">property decorator</div><div class="glos-pop-id">Dekorator Python untuk membuat metode dapat diakses seperti atribut biasa tanpa tanda kurung.</div></div></div>
         </div>
       </div>
 
