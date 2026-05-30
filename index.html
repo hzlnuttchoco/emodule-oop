@@ -22,7 +22,7 @@
     --teal-light: #E1F5EE;
     --bg: #f8f9fc;
     --surface: #ffffff;
-    --border: #D3D1C7;
+    --border: #e5e7eb;
     --text: #2C2C2A;
     --text-2: #444441;
     --text-3: #5F5E5A;
@@ -111,11 +111,11 @@ pre.code-pre{padding:14px 16px;font-family:var(--mono);font-size:12.5px;line-hei
 /* ── GLOSSARY ── */
 .glos-pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px}
 .glos-term{position:relative;display:inline-block}
-.glos-word{font-family:var(--mono);font-size:11px;padding:3px 10px;border-radius:99px;border:1px solid var(--border2);background:var(--surface);color:var(--accent);cursor:pointer;transition:all .15s;display:inline-block}
+.glos-word{font-family:var(--mono);font-size:11px;padding:3px 10px;border-radius:99px;border:1px solid var(--border);background:var(--surface);color:var(--blue);cursor:pointer;transition:all .15s;display:inline-block}
 .glos-word:hover{background:var(--accent-dim);border-color:var(--accent)}
-.glos-pop{display:none;position:absolute;bottom:calc(100% + 7px);left:50%;transform:translateX(-50%);background:var(--surface2);border:1px solid var(--border2);border-radius:var(--r);padding:10px 12px;width:210px;z-index:50}
-.glos-pop-en{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--accent);margin-bottom:3px}
-.glos-pop-id{font-size:11px;color:var(--text2);line-height:1.5}
+.glos-pop{display:none;position:absolute;bottom:calc(100% + 7px);left:50%;transform:translateX(-50%);background:var(--text);border:1px solid var(--border2);border-radius:var(--r);padding:10px 12px;width:210px;z-index:50}
+.glos-pop-en{font-family:var(--mono);font-size:11px;font-weight:700;color:#ffffff;margin-bottom:3px}
+.glos-pop-id{font-size:11px;color:#ffffff;line-height:1.5}
 .glos-term:hover .glos-pop{display:block}
 
 /* ── INFOG ── */
